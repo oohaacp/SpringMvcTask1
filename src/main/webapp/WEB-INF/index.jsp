@@ -1,10 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-   pageEncoding="UTF-8" isELIgnored="false" %>
 <html>
-<head>
-<title>Start Spring MVC</title>
-</head>
 <body>
-<h1>Welcome ${print} to stackroute</h1>
+<form action = "hello" method="POST">
+USERNAME : <input type="text" name="username" /> <br/> <br/>
+PASSWORD : <input type="password" name="password" /> <br/> <br/>
+           <input type="submit" name="SUBMIT">
+</form>
 </body>
 </html>
